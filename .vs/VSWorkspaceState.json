@@ -3,8 +3,9 @@
     "",
     "\\GameCaro",
     "\\GameCaro\\client",
-    "\\GameCaro\\server"
+    "\\GameCaro\\server",
+    "\\GameCaro\\server\\server"
   ],
-  "SelectedNode": "\\GameCaro\\server\\server.sln",
+  "SelectedNode": "\\GameCaro\\server\\server\\server.py",
   "PreviewInSolutionExplorer": false
 }

@@ -5,7 +5,7 @@ import tkinter as tk
 from tkinter import messagebox
 from datetime import datetime
 
-HOST = '192.168.1.13'
+HOST = '172.20.10.6'
 PORT = 12345
 
 BOARD_SIZE = 15
@@ -13,10 +13,10 @@ EMPTY_CELL = ' '
 
 THEMES = {
     "light": {
-        "BG_COLOR": "#F5F5DC",  # Màu be cho nền
-        "BOARD_BG": "#8B4513",  # Màu nâu gỗ đậm cho đường lưới
-        "BTN_COLOR": "#D2B48C", # Màu nâu gỗ nhạt cho các ô trống
-        "BTN_ACTIVE": "#C19A6B",# Màu nâu gỗ nhạt hơn khi di chuột
+        "BG_COLOR": "#F5F5DC",  
+        "BOARD_BG": "#8B4513", 
+        "BTN_COLOR": "#D2B48C", 
+        "BTN_ACTIVE": "#C19A6B",
         "BTN_TEXT": "#333333",
         "HEADER_BG": "#654321",
         "HEADER_TEXT": "#F5F5DC",
@@ -175,7 +175,7 @@ class CaroGameClient:
 
         self.control_frame = tk.Frame(self.top_section_frame, bg=self.colors["BG_COLOR"])
         self.control_frame.pack(side=tk.RIGHT, padx=5)
-        self.theme_button = tk.Button(self.control_frame, text="Chuyển giao diện", command=self.toggle_theme,
+        self.theme_button = tk.Button(self.control_frame, text="Chuyển", command=self.toggle_theme,
                                       bg=self.colors["BTN_COLOR"], fg=self.colors["BTN_TEXT"], font=("Arial", 10))
         self.theme_button.pack(side=tk.LEFT, padx=5)
         self.sound_button = tk.Button(self.control_frame, text="Tắt âm", command=self.toggle_sound,
