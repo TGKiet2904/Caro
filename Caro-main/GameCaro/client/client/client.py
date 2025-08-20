@@ -570,4 +570,4 @@ if __name__ == "__main__":
     game_client = CaroGameClient(root)
     root.mainloop()
 
-    #chỉnh lại màu text khi nhấn vào nút chuyển
+    #chỉnh lại giao diện bắt đầu game

@@ -1,10 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Caro-main",
+    "\\Caro-main\\GameCaro",
+    "\\Caro-main\\GameCaro\\client",
+    "\\Caro-main\\GameCaro\\client\\client",
     "\\GameCaro",
     "\\GameCaro\\client",
-    "\\GameCaro\\server"
+    "\\GameCaro\\server",
+    "\\server"
   ],
-  "SelectedNode": "\\GameCaro\\server\\server.sln",
+  "SelectedNode": "\\Caro-main\\GameCaro\\client\\client\\client.py",
   "PreviewInSolutionExplorer": false
 }
